@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import sqlite3
 import pandas as pd
-import menu1, menu3, menu4
+import menu1, menu2, menu3, menu4
 
 st.set_page_config(page_title="만드는 중", layout="wide")
 # st.title('Streamlit 앱의 테마 사용자 정의하기')
@@ -34,7 +34,7 @@ if choice == menu1_title:
     menu1.menu1_ui()
 elif choice == menu2_title:
     st.header(menu2_title)
-    st.write("여기는 페이지2의 내용입니다.")
+    menu2.menu2_ui()
 elif choice == menu3_title:
     st.header(menu3_title)
     st.write("입력된 SQL을 OPEN AI를 통해 튜닝하고, EXPLAIN PLAN을 통해 성능을 분석 >> 튜닝하는 핵심 기능 구현 필요")
