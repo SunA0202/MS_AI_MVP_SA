@@ -1,7 +1,7 @@
 # AI DB TUNE
 # AI 기반 SQL 및 테이블 튜닝 웹 프로젝트
 
-본 프로젝트는 OpenAI 및 AI 연구를 활용하여 SQL 성능 최적화와 테이블 구조 개선을 지원하는 웹 애플리케이션입니다.
+본 프로젝트는 Azure AI 기반 SQL 성능 최적화와 테이블 구조 개선을 지원하는 웹 애플리케이션입니다.
 
 ---
 
@@ -34,12 +34,3 @@
 - matplotlib, pandas 등 데이터 처리 및 시각화 라이브러리
 
 ---
-
-## 설치 및 실행 방법
-
-1. 저장소 클론
-
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-
